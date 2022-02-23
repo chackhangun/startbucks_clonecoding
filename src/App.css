@@ -1,0 +1,98 @@
+@font-face {
+  font-family: "starbucks_logo";
+  src: url(./fonts/GreatVibes-Regular.ttf);
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background: #00bfb2;
+}
+
+.box.active{
+  animation: boxFade 2s 1s infinite linear alternate;
+}
+
+.login{
+  display: flex;
+  justify-content: center;
+}
+
+.login_emptybox{
+  width: 35vw;
+  height: 70vh;
+  background-color: #f0f0f0;
+}
+
+.login_box{
+  width: 30vw;
+  height: 60vh;
+  box-shadow: 5px;
+  border: 1px;
+}
+
+.login_content_box{
+  margin: 5% 5% 10% 5%;
+  display: flex;
+  flex-direction: column;
+}
+
+.company_logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 20vh;
+}
+
+.starbucks_img{
+  object-fit: cover;
+}
+
+.logo_font{
+  text-align: center;
+  font-family: starbucks_logo;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: bolder;
+  margin: 0 auto;
+}
+.user_info_box{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 30%;
+}
+
+.id_pwd{
+  width: 80%;
+  height: 35px;
+  background-color: #f0f0f0;
+  border: 2px solid #dbdbdb;
+  margin: 10px 0px 10px 0px;
+}
+
+.id_pwd::placeholder{
+  font-size: 90%;
+}
+
+.login_button{
+  width: 82%;
+  height: 35px;
+  background-color: rgb(134,192,249);
+  border: 2px solid rgb(134,192,249);
+  margin: 10px 0px 10px 0px;
+  border-radius: 5px 5px 5px 5px;
+  color: white;
+}
+
+.emptybox_under_login_button{
+  height: 18vh;
+}
+
+.forget_pwd{
+  color : rgb(134,192,249);
+  font-weight: bold;
+  font-size: 15px;
+}
