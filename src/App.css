@@ -88,11 +88,12 @@
 }
 
 .emptybox_under_login_button{
-  height: 18vh;
+  height: 15vh;
 }
 
 .forget_pwd{
   color : rgb(134,192,249);
   font-weight: bold;
   font-size: 15px;
+  
 }
